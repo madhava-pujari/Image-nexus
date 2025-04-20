@@ -5,8 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/VinayakBagaria/photogram/dto"
-	"github.com/VinayakBagaria/photogram/utils"
+	"imagenexus/dto"
+	"imagenexus/utils"
+
 	"github.com/stretchr/testify/assert"
 )
 

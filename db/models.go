@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/VinayakBagaria/photogram/config"
-	"github.com/VinayakBagaria/photogram/dto"
+	"imagenexus/config"
+	"imagenexus/dto"
 )
 
 type Picture struct {
@@ -21,7 +21,6 @@ type Picture struct {
 	Size        int32  `json:"size"`
 	ContentType string `json:"content_type"`
 }
-
 
 func (p *Picture) ToPictureResponse() *dto.PictureResponse {
 	return &dto.PictureResponse{

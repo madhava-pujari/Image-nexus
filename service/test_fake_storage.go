@@ -5,9 +5,9 @@ import (
 	"mime/multipart"
 	"path/filepath"
 
-	"github.com/VinayakBagaria/photogram/dto"
-	"github.com/VinayakBagaria/photogram/storage"
-	"github.com/VinayakBagaria/photogram/utils"
+	"imagenexus/dto"
+	"imagenexus/storage"
+	"imagenexus/utils"
 )
 
 type fakeStorage struct {

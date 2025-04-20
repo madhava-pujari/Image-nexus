@@ -5,9 +5,10 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/VinayakBagaria/photogram/api/restutil"
-	"github.com/VinayakBagaria/photogram/dto"
-	"github.com/VinayakBagaria/photogram/service"
+	"imagenexus/api/restutil"
+	"imagenexus/dto"
+	"imagenexus/service"
+
 	"github.com/gin-gonic/gin"
 )
 

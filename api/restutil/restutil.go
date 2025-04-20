@@ -1,7 +1,8 @@
 package restutil
 
 import (
-	"github.com/VinayakBagaria/photogram/dto"
+	"imagenexus/dto"
+
 	"github.com/gin-gonic/gin"
 )
 

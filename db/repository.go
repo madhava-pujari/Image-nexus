@@ -4,7 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/VinayakBagaria/photogram/dto"
+	"imagenexus/dto"
+
 	"gorm.io/gorm"
 )
 

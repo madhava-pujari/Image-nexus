@@ -3,7 +3,7 @@ package db
 import (
 	"fmt"
 
-	"github.com/VinayakBagaria/photogram/config"
+	"imagenexus/config"
 )
 
 type Configuration interface {
